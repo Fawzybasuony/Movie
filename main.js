@@ -22,7 +22,6 @@ clic.forEach(eo => {
           let text = eo.getElementsByTagName("p")[0].innerText
           let div_1 = eo.getElementsByClassName("div_1")[0].innerText
           let div_2 = eo.getElementsByClassName("div_2")[0].innerText
-          let iframe = eo.getElementsByTagName("iframe")[0].src
 
           // console.log(iframe);
           let x =
@@ -37,7 +36,6 @@ clic.forEach(eo => {
                          <div class="fs-5 my-3">${div_2}</div>
                          
                     </div>
-                             <iframe class="my-3 w-100" src="${iframe}" frameborder="0"></iframe>
 
 
 
