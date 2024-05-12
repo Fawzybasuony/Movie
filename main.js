@@ -39,16 +39,27 @@ clic.forEach(eo => {
 
 
 
-                    <footer>
-                         <div class="abute">
-                              <div>
-                                   <i class="me-2 fa-brands fa-facebook"></i>
-                                   <i class="fa-brands fa-twitter"></i>
-                              </div>
-                              <p>fushaar © 2024 - V10.0</p>
-                              <p>Movie Cinema</p>
-                         </div>
-                    </footer>
+               
+                    <footer id="footer" class="mx-0 d-flex justify-content-around align-items-center bg-dark">
+
+                    <div class="my-5 ms-2 text-light">
+                      <h2> Connect with us</h2>
+                      <div><i class="fa-solid fa-location-dot p-2"></i>New Cairo,next to Al Zahraa Hospital</div>
+                      <div><i class="fa-solid fa-phone p-2"></i> 01060618915</div>
+                      <div><i class="fa-solid fa-envelope p-2 mb-3"></i>cairopower.cpc@gmail.com</div>
+     
+                      <p class="ps-2">Cinema © 2024 - V10.0</p>
+                      <p class="ps-2">Movie Cinema</p>
+                      <div>
+                        <i class="p-2 fa-brands fa-facebook"></i> <i class="p-2 fa-solid fa-location-dot"></i>
+                        <i class="p-2 fa-brands fa-linkedin"></i> <i class="p-2 fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                
+                    <div class="text-light me-2">
+                    
+                    </div>
+                  </footer>
                </div>
           
           `;
